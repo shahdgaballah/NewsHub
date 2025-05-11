@@ -7,9 +7,9 @@ ThemeData getDarkMode()=>ThemeData(
     backgroundColor: HexColor('#1B2529'),
     titleSpacing: 20.0,
     titleTextStyle: TextStyle(
-       fontSize: 30.0,
-      color: Colors.white,
-
+      fontSize: 30.0,
+      color: Colors.deepOrange,
+      fontWeight: FontWeight.bold,
     ),
     actionsIconTheme: IconThemeData(
       color: Colors.white,
@@ -41,7 +41,7 @@ ThemeData getDarkMode()=>ThemeData(
 
     titleLarge: TextStyle(
       fontWeight: FontWeight.bold,
-      color: Colors.white,
+      color: Colors.deepOrange,
     ),
     titleMedium: TextStyle(
       fontWeight: FontWeight.bold,
@@ -70,6 +70,7 @@ ThemeData getDarkMode()=>ThemeData(
     type: BottomNavigationBarType.fixed,
     selectedItemColor: Colors.deepOrange,
     unselectedItemColor: Colors.grey,
+    elevation: 20.0,
   ),
 
   progressIndicatorTheme: ProgressIndicatorThemeData(
@@ -84,8 +85,8 @@ ThemeData getLightMode()=>ThemeData(
     titleSpacing: 20.0,
     titleTextStyle: TextStyle(
       fontSize: 30.0,
-      color: Colors.black,
-
+      color: Colors.deepOrange,
+      fontWeight: FontWeight.bold,
     ),
     actionsIconTheme: IconThemeData(
       color: Colors.black,
@@ -117,23 +118,23 @@ ThemeData getLightMode()=>ThemeData(
 
     titleLarge: TextStyle(
       fontWeight: FontWeight.bold,
-      color: Colors.black,
+      color: Colors.deepOrange,
     ),
     titleMedium: TextStyle(
       fontWeight: FontWeight.bold,
-      color: Colors.white,
+      color: Colors.black,
     ),
     titleSmall: TextStyle(
       fontWeight: FontWeight.bold,
-      color: Colors.white,
+      color: Colors.black,
     ),
 
     bodyLarge: TextStyle(
-      color: Colors.white,
+      color: Colors.black,
     ),
     bodyMedium: TextStyle(
       fontWeight: FontWeight.bold,
-      color: Colors.white,
+      color: Colors.black,
     ),
     bodySmall: TextStyle(
       fontWeight: FontWeight.bold,
@@ -142,10 +143,11 @@ ThemeData getLightMode()=>ThemeData(
   ),
 
   bottomNavigationBarTheme: BottomNavigationBarThemeData(
-    backgroundColor: HexColor('#1B2529'),
+    backgroundColor: Colors.white,
     type: BottomNavigationBarType.fixed,
     selectedItemColor: Colors.deepOrange,
     unselectedItemColor: Colors.grey,
+    elevation: 20.0,
   ),
 
   progressIndicatorTheme: ProgressIndicatorThemeData(
