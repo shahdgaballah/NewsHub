@@ -1,16 +1,53 @@
-# newz_app
+# News Hub 📰
 
-A new Flutter project.
+A Flutter news application that provides real-time updates across multiple categories, featuring a clean interface and seamless user experience.
 
-## Getting Started
+## Features
+- **Multiple News Categories**: Access Business, Sports, and Science news
+- **Dark/Light Theme**: Toggle between dark and light modes
+- **Real-Time Search**: Search functionality to find specific news articles
+- **Dynamic UI**: Responsive design that adapts to different screen sizes
+- **Image Caching**: Efficient loading and caching of news images
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
+- **Framework:** Flutter
+- **State Management:** BLoC Pattern
+- **API Integration:** Dio
+- **Image Handling:** Cached Network Image
+- **Theme Management:** Custom theme implementation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## API Integration
+The app uses the News API to fetch real-time news data across different categories.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots (Dark Mode)
+
+
+### Business News
+![Business News](business-dark-mode.jpg)
+
+### Sports News
+![Sports News](sports-dark-mode.jpg)
+
+### Science News
+![Science News](science-dark-mode.jpg)
+
+### Search Screen
+![Search Screen](search-dark-mode.jpg)
+
+
+### Light Mode
+
+
+### Business News
+![Business News](business-light-mode.jpg)
+
+### Sports News
+![Sports News](sports-light-mode.jpg)
+
+### Science News
+![Science News](science-light-mode.jpg)
+
+### Search Screen
+![Search Screen](search-light-mode.jpg)
