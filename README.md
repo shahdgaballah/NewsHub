@@ -21,33 +21,14 @@ A Flutter news application that provides real-time updates across multiple categ
 The app uses the News API to fetch real-time news data across different categories.
 
 
-## Screenshots (Dark Mode)
+## Screenshots
 
-
-### Business News
-![Business News](business-dark-mode.jpg)
-
-### Sports News
-![Sports News](sports-dark-mode.jpg)
-
-### Science News
-![Science News](science-dark-mode.jpg)
-
-### Search Screen
-![Search Screen](search-dark-mode.jpg)
-
+### Dark Mode
+| Business News | Sports News | Science News | Search Screen |
+|---------------|-------------|--------------|---------------|
+| ![](business-dark-mode.jpg) | ![](sports-dark-mode.jpg) | ![](science-dark-mode.jpg) | ![](search-dark-mode.jpg) |
 
 ### Light Mode
-
-
-### Business News
-![Business News](business-light-mode.jpg)
-
-### Sports News
-![Sports News](sports-light-mode.jpg)
-
-### Science News
-![Science News](science-light-mode.jpg)
-
-### Search Screen
-![Search Screen](search-light-mode.jpg)
+| Business News | Sports News | Science News | Search Screen |
+|---------------|-------------|--------------|---------------|
+| ![](business-light-mode.jpg) | ![](sports-light-mode.jpg) | ![](science-light-mode.jpg) | ![](search-light-mode.jpg) |
